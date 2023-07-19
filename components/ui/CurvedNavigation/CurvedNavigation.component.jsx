@@ -36,7 +36,7 @@ const CurvedNavigation = () => {
             initial="initial"
             animate="enter"
             exit="exit"
-            className="h-screen w-[100vw] bg-menu fixed left-0 top-0 text-white"
+            className="h-screen w-[100vw] bg-menu fixed left-0 top-0 z-[10] text-white"
         >
             <div className="h-full p-[100px] flex flex-col justify-between box-border">
                 <div onMouseLeave={() => { setSelectedIndicator(pathname) }} className="flex flex-col fz-[56px] mt-12">

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 // Components
 import Header from "@/components/ui/Header/Header.component";
+import HeroCarousel from "@/components/home/HeroCarousel.component";
 
 export default function Home() {
     useEffect(() => {
@@ -33,6 +34,7 @@ export default function Home() {
     return(
         <>
             <Header />
+            <HeroCarousel />
         </>
     )
-}
+}   
