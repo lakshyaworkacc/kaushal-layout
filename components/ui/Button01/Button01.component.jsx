@@ -6,7 +6,7 @@ const Button01 = ({ children }) => {
         <div className="group relative overflow-hidden cursor-pointer text-2xl uppercase text-black leading-[1.9rem">
 
             {/* Static Button */}
-            <span className="inline-block p-1 transition duration-500 ease-out group-hover:translate-y-[120%] group-hover:-rotate-12">
+            <span className="inline-block p-1 transition duration-500 ease-out group-hover:translate-y-[-120%] group-hover:-rotate-12">
                 {children}
             </span>
 
