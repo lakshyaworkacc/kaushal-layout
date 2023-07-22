@@ -1,0 +1,71 @@
+body {
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 1440px) {
+    .mainHome {
+        display: none;
+    }
+}
+
+.scroll-down {
+	header {
+		transform: translate3d(0, -115%, 0);
+	}
+}
+
+.scroll-up {
+	header {
+		filter: drop-shadow(0 1px 3px rgba(192, 192, 192, 0.8));
+	}
+}
+
+.menu-is-open {
+	overflow: hidden;
+
+	header {
+		filter: none;
+	}
+}
+
+.aboutKGContent {
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 1rem;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        color: black;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    div {
+        width: 98%;
+        height: 480px;
+        border-radius: 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.firstHorizontalContentContainer {
+	width: 100vw;
+	margin-right: 2.5rem;
+
+	div {
+        margin-top: 1rem;
+		border-radius: 1rem;
+		width: 90vw;
+		height: 90vh;
+		background-size: cover;
+		background-position: center;
+	}
+}

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { motion } from "framer-motion";
 import { menuSlide } from './animation';
-import "./CurvedNavigation.style.scss";
 import CurvedLink from './CurvedLink/CurvedLink.component';
 import Curve from './Curve/Curve.component';
 

@@ -8,8 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "menu": "#1E1E1E",
-      }
+        "menu": "#0d0d0d",
+        "contactLeft": "#272a34",
+      },
+      backgroundImage: {
+        "nyawithGovernor": "url('/HeroCarousel/ONE.jpg')",
+      },
     },
   },
   plugins: [],
